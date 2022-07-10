@@ -1,8 +1,7 @@
 <?php global $Wcms ?>
 <!DOCTYPE HTML>
 <html>
-<head>
-<title><?= $Wcms->page('title') ?> - <?= $Wcms->get('config', 'siteTitle') ?></title>
+<head><title><?= $Wcms->page('title') ?> - <?= $Wcms->get('config', 'siteTitle') ?></title>
 <meta name="description" content="<?= $Wcms->page('description') ?>">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -19,11 +18,7 @@
 <header id="header">
 <div class="inner">
 <div class="logo"><a href="/"><img height="100%" src="/data/files/logo.png" alt="<?= $Wcms->page('title') ?>"></a></div>
-<nav id="nav">
-<ul>
-<?= $Wcms->menu() ?>
-</ul>
-</nav>
+<nav id="nav"><ul><?= $Wcms->menu() ?></ul></nav>
 </div>
 </header>
 </div>
