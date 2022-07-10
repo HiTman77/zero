@@ -1,0 +1,13 @@
+{
+"version": 1,
+"themes": {
+"zero": {
+"name": "zero",
+"repo": "https://github.com/HiTman77/zero",
+"zip": "https://github.com/HiTman77/zero/archive/master.zip",
+"summary": "zero",
+"version": "1.0.0",
+"image": "https://raw.githubusercontent.com/HiTman77/zero/main/preview.jpg"
+}
+}
+}
